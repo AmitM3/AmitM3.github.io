@@ -1,0 +1,16 @@
+#grid {
+    grid-template-columns: 1fr 3fr;
+}
+
+main {
+    background-color: rgba(248,248,248,255);
+}
+
+.main-grid {
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.main-grid > div {
+    justify-self: center;
+}
